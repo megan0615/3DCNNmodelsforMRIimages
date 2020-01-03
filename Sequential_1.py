@@ -4,7 +4,7 @@ from keras.layers.convolutional import Convolution3D, MaxPooling3D
 from keras.models import Sequential
 
 model = Sequential()
-model.add(Convolution3D(32, (3,3,3), input_shape=(195,3,3,1536),activation='relu', padding='same', data_format='channels_first'))
+model.add(Convolution3D(32, (3,3,3), input_shape=(1,61,73,61),activation='relu', padding='same', data_format='channels_first'))
 model.add(MaxPooling3D((3,3,3),data_format='channels_first'))
 model.add(Flatten())
 model.add(Dense(128, activation='relu'))
