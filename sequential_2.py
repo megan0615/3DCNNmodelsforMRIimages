@@ -19,7 +19,7 @@ model.compile(loss='binary_crossentropy', optimizer='adadelta', metrics=['accura
 print(model.summary())
 
 
-#Model written in normal manner
+#Model written with Input and Output
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers import Input
 from keras.layers.convolutional import Convolution3D, MaxPooling3D
