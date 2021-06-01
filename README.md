@@ -1,10 +1,10 @@
 # 3DCNNmodelsforMRIimages
 
-Background
+## Background 
 
 The ability of automatic feature learning makes Convolutional Neural Network (CNN) potentially suitable to uncover the complex and widespread brain changes in schizophrenia. Despite that, limited studies have been done on schizophrenia identification using interpretable deep learning approaches on multimodal neuroimaging data. Here, we developed a deep feature approach based on pre-trained 2D CNN and naive 3D CNN models trained from scratch for schizophrenia classification by integrating 3D structural and diffusion magnetic resonance imaging (MRI) data. We found that the naive 3D CNN models outperformed the pretrained 2D CNN models and the handcrafted feature-based machine learning approach using support vector machine during both cross-validation and testing on an independent dataset. Multimodal neuroimaging-based models accomplished performance superior to models based on a single modality. Furthermore, we identified brain grey matter and white matter regions critical for illness classification at the individual- and group-level which supported the salience network and striatal dysfunction hypotheses in schizophrenia. Our findings underscore the potential of CNN not only to automatically uncover and integrate multimodal 3D brain imaging features for schizophrenia identification, but also to provide relevant neurobiological interpretations which are crucial for developing objective and interpretable imaging-based probes for prognosis and diagnosis in psychiatric disorders.  
 
-Model Architecture
+## Model Architecture
 
 Sequential models followed the typical CNN sequential architecture with convolutional layers, pooling layers and fully connected layers. The convolutional kernel and pooling kernel were set with 3x3x3 dimensions using grid search. Independent input maps were connected to different network branches. The resulting feature maps from each branch were flattened and connected to a fully connected layer with 128 neurons. Output was obtained by sigmoid function.
 
@@ -20,7 +20,12 @@ Inspired by the residual module, inception_resnet models combined inception arch
 
 ![Figure 4](https://user-images.githubusercontent.com/44959050/120256595-0e572180-c2c1-11eb-8aa5-ff9c9fc917dd.png)
 
+## Citation 
+
 Please cite our work "Hu M, Sim K, Zhou JH, Jiang X, Guan C. Brain MRI-based 3D Convolutional Neural Networks for Classification of Schizophrenia and Controls. Annu Int Conf IEEE Eng Med Biol Soc. 2020 Jul;2020:1742-1745. doi: 10.1109/EMBC44109.2020.9176610. PMID: 33018334.". 
 
+## Contact
+
+Pre-trained weights are avaialble upon request. Please contact hu.mengjiao01@gmail.com if you need any clarification or would like to contribute. 
 
 
