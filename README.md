@@ -20,6 +20,11 @@ Inspired by the residual module, inception_resnet models combined inception arch
 
 ![Figure 4](https://user-images.githubusercontent.com/44959050/120256595-0e572180-c2c1-11eb-8aa5-ff9c9fc917dd.png)
 
+## Setup models
+
+Python version: Python3.6
+Tensorflow version: Tensorflow 14.0
+
 ## Citation 
 
 Please cite our work "Hu M, Sim K, Zhou JH, Jiang X, Guan C. Brain MRI-based 3D Convolutional Neural Networks for Classification of Schizophrenia and Controls. Annu Int Conf IEEE Eng Med Biol Soc. 2020 Jul;2020:1742-1745. doi: 10.1109/EMBC44109.2020.9176610. PMID: 33018334.". 
