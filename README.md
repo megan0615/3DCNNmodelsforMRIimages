@@ -23,6 +23,7 @@ Inspired by the residual module, inception_resnet models combined inception arch
 ## Setup models
 
 Python version: Python3.6
+
 Tensorflow version: Tensorflow 14.0
 
 ## Citation 
